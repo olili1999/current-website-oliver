@@ -2,19 +2,19 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Headshot from  "../headshot.jpeg"
 
+
 const Navbar = () =>{
   return (
-  <div className = "flex justify-start items-center h-14 w-full shadow-sm">
-    <span className = "ml-60 flex font-lato ">
-        <Link to = "/" className = "font-bold mr-5 ml-5"> 
-            <div className = "flex"> 
-                <img className = "h-6 w-6 object-cover rounded-full" src = {Headshot}/> 
-                <p className = "ml-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-blue-600 animate-text"> Oliver Li </p> 
-            </div> 
-        </Link> 
-        <Link to = "/about"className = "mr-5 ml-5 font-lato "> About  </Link> 
-        <Link to = "/work" className = "mr-5 ml-5 font-lato "> Work </Link> 
-        <Link to = "/writing" className = "mr-5 ml-5 font-lato "> Writing </Link> 
+  <div className = "flex items-center h-16 w-full shadow-sm">
+    <span className = "ml-4 mr-4 w-full md:w-2/5 md:mx-auto flex flex-row items-center justify-between">
+        <Link to = "/" className = "font-semibold text-aesopblack"> 
+          <p className = "ml-2 md:ml-0 text-lg hover:opacity-75"> Oliver Li (李悠然) </p> 
+        </Link>  
+        <div> 
+          <Link to = "/about" className = "text-aesopgrey hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack mr-2 ml-2"> About  </Link> 
+          <Link to = "/work" className = "text-aesopgrey hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack mr-2 ml-2"> Work </Link> 
+          <Link to = "/writing" className = "text-aesopgrey hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack mr-2 ml-2"> Writing </Link> 
+        </div> 
     </span> 
   </div>
   );

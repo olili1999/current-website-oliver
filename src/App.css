@@ -2,13 +2,26 @@
   text-align: center;
 }
 
-#root {
-  min-height: 100vh;
+
+html, body, #root, .App {
+  height:100vh; 
 }
+
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+@font-face { 
+  font-family: "Suisse"; 
+  src: url("../public/SuisseIntl-Regular.otf"); 
+  
+  font-family: "Suisse-Semi-Bold"; 
+  src: url("../public/SuisseIntl-SemiBold.otf"); 
 }
 
 @media (prefers-reduced-motion: no-preference) {
