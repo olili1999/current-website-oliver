@@ -4,12 +4,9 @@ import { Link } from "react-router-dom";
 
 const Home = () =>{
     return (
-    <div className = "mt-6 ml-6 mr-6 md:w-2/5 md:mx-auto md:flex md:flex-col md:items-center md:justify-center">
+    <div className = "mt-8 ml-6 mr-6 md:w-2/5 md:mx-auto md:flex md:flex-col md:items-center md:justify-center">
         <div className = "flex flex-row items-center w-full mb-4 text-left font-semibold text-aesopblack">
-            <p className= "mr-2 text-xl"> Hi, I'm Oliver </p> 
-            <Twemoji className = "h-5 w-5" options={{ className: 'twemoji' }}>
-            👋
-            </Twemoji>
+            <p className= "mr-2 text-xl"> Hi, I'm Oliver 👋 </p> 
         </div> 
         <p className = "leading-loose text-aesopgrey text-left font-normal"> I'm a recent graduate
         of the University of Michigan with a dual degree in&nbsp;
@@ -26,8 +23,8 @@ const Home = () =>{
             &nbsp;working on post-purchase customer experience and ETAs. 
             Currently working @
             <a className = "underline underline-offset-4 hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack" href = "https://www.intros.ai/"> 
-             intros.ai
-            </a> as their first PM hire and lead designer. 
+             Intros AI
+            </a> as their first product management hire and lead designer. 
     
             Previously @
             <a className = "underline underline-offset-4 hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack" href = "http://www.belvederetrading.com/">Belvedere Trading</a> 
@@ -40,7 +37,7 @@ const Home = () =>{
             </a>,&nbsp;
             <a className = "underline underline-offset-4 hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack" href = "https://kodelabs.com/">
             Kode Labs 
-            </a>&nbsp;working as a PM,&nbsp;
+            </a>&nbsp;working as a product manager,&nbsp;
             <a className = "underline underline-offset-4 hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack" href = "https://www.principal.com/">Principal Financial Group</a> doing data science, and&nbsp; 
             <a className = "underline underline-offset-4 hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack" href = "https://www.microsoft.com/en-us/research/people/suri/">Microsoft</a> doing research.  
         </p> 
