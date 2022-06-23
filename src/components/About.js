@@ -8,7 +8,7 @@ const About = () =>{
   return (
     <div className = "text-aesopgrey mt-8 ml-6 mr-6 md:w-2/5 md:mx-auto md:flex md:flex-col md:justify-center">
       <img className = "w-44 h-44 rounded-sm" src = {OliverDadLittle}/> 
-      <p className = "text-left mt-4"> Hi 👋. I'm Oliver, or 李悠然 in Chinese. I was born and raised in Michigan, but my parents grew up in China 🇨🇳. They immigrated here in 
+      <p className = "text-left mt-4"> Hi 👋. I'm Oliver (李悠然), or in Chinese. I was born and raised in Michigan, but my parents grew up in China 🇨🇳. They immigrated here in 
       search of a better life when they were in their mid-20's, knowing barely enough English to survive. 
       They raised my sister (李友阳) in China until she was 6 and she immigrated here. Then, I was born. </p>
       <p className = "text-left mt-4">A lot of my life growing up revolved (and still does revolve) around playing tennis 🎾. Tennis has defined a lot of my identity for better 

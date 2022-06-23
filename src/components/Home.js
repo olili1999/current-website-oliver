@@ -1,12 +1,13 @@
 import Twemoji from 'react-twemoji';
 import { Link } from "react-router-dom";
-
+import Headshot from "../headshot.jpeg"
 
 const Home = () =>{
     return (
     <div className = "mt-8 ml-6 mr-6 md:w-2/5 md:mx-auto md:flex md:flex-col md:items-center md:justify-center">
-        <div className = "flex flex-row items-center w-full mb-4 text-left font-semibold text-aesopblack">
-            <p className= "mr-2 text-xl"> Hi, I'm Oliver 👋 </p> 
+        <div className = "mb-4 w-full flex flex-col justify-start items-start font-semibold text-aesopblack">
+            <img className = "object-cover rounded-sm w-44 h-44" src = {Headshot}/>
+            <p className= "mt-4 mr-2 text-xl"> Hi, I'm Oliver 👋 </p> 
         </div> 
         <p className = "leading-loose text-aesopgrey text-left font-normal"> I'm a recent graduate
         of the University of Michigan with a dual degree in&nbsp;
@@ -42,12 +43,12 @@ const Home = () =>{
             <a className = "underline underline-offset-4 hover:font-semibold active:text-aesopblack active:text-semibold focus:text-semibold focus:text-aesopblack hover:text-aesopblack" href = "https://www.microsoft.com/en-us/research/people/suri/">Microsoft</a> doing research.  
         </p> 
         <div className = "flex flex-row items-center justify-center"> 
-            <Link to = "/about"> 
+            <Link exact to = "/about"> 
                 <button className = "mr-2 mt-8 px-6 py-1.5 rounded border-2 border-aesopblack hover:opacity-75 text-aesopblack"> 
                     More about me
                 </button> 
             </Link>
-            <Link to = "/work"> 
+            <Link exact to = "/work"> 
             <button className = "ml-2 mt-8 px-6 py-2 rounded bg-aesopblack hover:opacity-75 text-zinc-100"> 
                 See work
             </button> 
